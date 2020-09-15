@@ -19,7 +19,7 @@ in the github repository from cube0x0 shown above.
 
 ## Usage
 
-usage: zerologon.py [-h] [-x] N [N ...] IP [IP ...]
+`usage: zerologon.py [-h] [-x] N [N ...] IP [IP ...]
 
 Tests whether a domain controller is vulnerable to the Zerologon attack.
 
@@ -30,7 +30,7 @@ positional arguments:
 optional arguments:
   -h, --help     show this help message and exit
   -x, --exploit  Exploit the target
-
+`
 ## Example
 
 python3 zerologon.py DC\_NAME X.X.X.X
