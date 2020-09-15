@@ -39,11 +39,11 @@ optional arguments:
 
 ## Example
 
-```python3 zerologon.py DC\_NAME X.X.X.X```
+```python3 zerologon.py NETBOIS_NAME X.X.X.X```
 
 Scans the target for the vulnerability
 
-```python3 zerologon.py DC\_NAME X.X.X.X -exploit```
+```python3 zerologon.py NETBIOS_NAME X.X.X.X -exploit```
 
 Scans the target then sets the account ("DC\_NAME$") password to 0
 
