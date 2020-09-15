@@ -2,13 +2,17 @@
 
 This script is used to test and exploit unpatched Domain Controllers for the Zerologon Vulnerability (CVE-2020-1472).
 More information on this vulnerability can by found here:
+
 https://www.secura.com/blog/zero-logon
 
 The PoC code for detection was provided by SecuraBV and can be found here:
+
 https://github.com/SecuraBV/CVE-2020-1472
 
 The exploit code has been provided by two sources:
+
 https://github.com/dirkjanm/CVE-2020-1472
+
 https://github.com/cube0x0/CVE-2020-1472
 
 ## Requirements
@@ -19,7 +23,8 @@ in the github repository from cube0x0 shown above.
 
 ## Usage
 
-`usage: zerologon.py [-h] [-x] N [N ...] IP [IP ...]
+```
+usage: zerologon.py [-h] [-x] N [N ...] IP [IP ...]
 
 Tests whether a domain controller is vulnerable to the Zerologon attack.
 
@@ -30,7 +35,7 @@ positional arguments:
 optional arguments:
   -h, --help     show this help message and exit
   -x, --exploit  Exploit the target
-`
+```
 ## Example
 
 python3 zerologon.py DC\_NAME X.X.X.X
