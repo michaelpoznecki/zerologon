@@ -1,4 +1,4 @@
-#Zerologon Exploit Script
+# Zerologon Exploit Script
 
 This script is used to test and exploit unpatched Domain Controllers for the Zerologon Vulnerability (CVE-2020-1472).
 More information on this vulnerability can by found here:
@@ -11,13 +11,13 @@ The exploit code has been provided by two sources:
 https://github.com/dirkjanm/CVE-2020-1472
 https://github.com/cube0x0/CVE-2020-1472
 
-##Requirements
+## Requirements
 
 The latest version of impacket from GitHub is needed for this attack, and at the time of writing, the 
 impacket library nrpc.py was not updated and is needed to be imported locally. This can be found
 in the github repository from cube0x0 shown above.
 
-##Usage
+## Usage
 
 usage: zerologon.py [-h] [-x] N [N ...] IP [IP ...]
 
@@ -31,7 +31,7 @@ optional arguments:
   -h, --help     show this help message and exit
   -x, --exploit  Exploit the target
 
-##Example
+## Example
 
 python3 zerologon.py DC\_NAME X.X.X.X
 
